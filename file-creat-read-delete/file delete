@@ -1,0 +1,11 @@
+<?php 
+$file = "another.txt";
+
+//unlink use for delete file
+
+if(file_exists($file)){
+    unlink($file);
+    echo "successfully delete";
+}else{
+    echo "not found";
+}
